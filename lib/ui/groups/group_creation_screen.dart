@@ -2,8 +2,10 @@
 
 import 'package:campusbook/bloc/groups/bloc/group_creation_bloc.dart';
 import 'package:campusbook/bloc/groups/bloc/group_creation_event.dart';
+import 'package:campusbook/config/constants.dart';
 import 'package:campusbook/config/global_style.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 
@@ -22,7 +24,7 @@ class _GroupCreationScreenState extends State<GroupCreationScreen> {
       
         title: Text(
           ' campusbook',
-          style: GlobalStyle.appBarTitle,
+          style: TextStyle(color: PRIMARY_COLOR),
           ),
         actions: [
           
